@@ -1,0 +1,17 @@
+自身で動画のカテゴリーを3つ決め、それに沿って1カテゴリーにつき3つの動画を決める。
+それぞれの動画をキャプチャーに取って、photoshopで1280X720pxをアセットで書き出す
+
+
+載せるカテゴリー
+・音楽
+https://www.youtube.com/watch?v=Lh2G5uN7nI8
+https://www.youtube.com/watch?v=pyi7KdQQ8T0
+https://www.youtube.com/watch?v=REyqA6MBG2A
+・観光
+https://www.youtube.com/watch?v=r3k-zJQh27o
+https://www.youtube.com/watch?v=aCVwHJa0n8I
+https://www.youtube.com/watch?v=39_7Lxe_Oyg
+・ファッション
+https://www.youtube.com/watch?v=Cn-4fXyo1fM
+https://www.youtube.com/watch?v=BXQ5XjFyKeQ
+https://www.youtube.com/watch?v=CPauFQDpgjY

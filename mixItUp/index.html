@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>フィルタリング機能とモーダルを実装</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+ <h1>フィルタリング機能とモーダルを実装</h1>   
+ <div class="conteiner">
+  <div class="btn-wrapper">
+        <button type="button"data-fillter="all">すべて</button>
+        <button type="button" data-fillter=".music">音楽</button>
+        <button type="button" data-fillter=".travell">観光</button>
+        <button type="button" data-fillter=".funshion">ファッション</button>
+        <button type="button" data-sort="order:asc">人気順</button>
+
+        
+    </div><!-- /.btn-wrapper -->
+
+<div class="contents">
+    <div class="mix music travell" data-order="2">
+        <a href="https://www.youtube.com/watch?v=Lh2G5uN7nI8" data-fancybox>
+        <img src="img/yamamo01.jpg" alt="">
+        </a>
+    </div>
+
+
+    <div class="mix music" data-order="4">
+        <a href="https://www.youtube.com/watch?v=pyi7KdQQ8T0" data-fancybox>
+        <img src="img/yamamo02.jpg" alt="">
+        </a>
+    </div>
+
+
+    <div class="mix music" data-order="6">
+        <a href="https://www.youtube.com/watch?v=REyqA6MBG2A" data-fancybox>
+        <img src="img/yamamo03.jpg" alt="">
+        </a>
+    </div>
+
+
+    <div class="mix travell" data-order="3">
+        <a href="https://www.youtube.com/watch?v=r3k-zJQh27o" data-fancybox>
+        <img src="img/hollyq01.jpg" alt="">
+        </a>
+    </div>
+
+
+    <div class="mix travell" data-order="7">
+        <a href="https://www.youtube.com/watch?v=aCVwHJa0n8I" data-fancybox>
+        <img src="img/hollyq02.jpg" alt="">
+        </a>
+    </div>
+
+
+    <div class="mix travell" data-order="1">
+        <a hivref="https://www.youtube.com/watch?v=39_7Lxe_Oyg" data-fancybox>
+        <img src="img/hollyq03.jpg" alt="">
+        </a>
+    </div>
+
+
+    <div class="mix funshion" data-order="9">
+        <a href="https://www.youtube.com/watch?v=Cn-4fXyo1fM" data-fancybox>
+        <img src="img/to01.jpg" alt="">
+        </a>
+    </div>
+
+
+    <div class="mix funshion" data-order="8">
+        <a href="https://www.youtube.com/watch?v=BXQ5XjFyKeQ" data-fancybox>
+        <img src="img/to02.jpg" alt="">
+        </a>
+    </div>
+
+
+    <div class="mix funshion" data-order="5">
+        <a href="https://www.youtube.com/watch?v=CPauFQDpgjY" data-fancybox>
+        <img src="img/to03.jpg" alt="">
+        </a>
+    </div>
+
+
+
+
+
+</div><!-- /.contents -->
+ </div><!-- /.conteiner -->
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+ <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js/mixitup.js"></script>
+<script>
+    let mixer = mixitup('.contents');
+</script>
+</body>
+</html>
